@@ -11,6 +11,7 @@
 - Spring Framework
 - Spring Batch
 - MySQL
+- Spring Data JPA
 - Maven
 
 # 機能
