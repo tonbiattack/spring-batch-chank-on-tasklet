@@ -1,4 +1,4 @@
-# Spring Batch の Tasklet の中で Chank を使用して 1 トランザクションにする
+# Spring Batch の Tasklet の中で Chank を使用する
 
 - Spring Batch には Chunk と Tasklet の二つの主要なモデルがあります。Chunk は中間コミットを行い、Tasklet は一括コミットを行う仕様です。
 - 実務上の要件で、Tasklet で実装しつつ、Chunk モデルの利点を活用し、リカバリー処理を単純化する必要がある場合があります。そのため、Tasklet コンポーネント内で Chunk コンポーネントを使用するサンプルコードを作成しました。
